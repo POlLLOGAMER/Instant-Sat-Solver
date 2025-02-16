@@ -87,7 +87,7 @@ In theory, at first it would be very unlikely that it would be true, but the mor
 
 As you can see, this is the graph of the percentage of correct answers, while the number of variables and clauses progressively increases (The number of clauses and variables is the same). As we see, it has a behavior that is correct 100 percent of the time. But normally, at the beginning, approximately before the 15 variables, the probabilities are very low, in case the clauses are more than the variables, but from the 15 variables it always goes. That is, a 100 percent probability that he will solve the SAT the first time, and we cannot see the exponential probability because the maximum probability is 100 percent, because he tests it 100 times. The probability increases exponentially and it is increasingly less likely that it will be less than 100%
 
-Here is the code with which I made the graph based on the results:
+Here is the code with which I made the graph based on the results when they have the same number of clauses and variables:
 
 ```
 import random
