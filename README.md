@@ -83,4 +83,4 @@ What this code does is create random SAT algorithms, and test with 100 variables
 In theory, at first it would be very unlikely that it would be true, but the more the amounts of variables and clauses increased, the more likely it would be that the SAT would be true.
 
 ## Graphing effectiveness
-![Texto alternativo](URL_de_la_imagen)
+![](Variables%20equal%20to%20Clauses.png)
