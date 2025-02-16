@@ -174,3 +174,4 @@ plt.grid(True)
 plt.show()
 
 ```
+Observations: If the number of variables is equal to the number of clauses, even if there is only 1 variable, it will solve it in 1 attempt, if the number of clauses is greater or less, it does not matter how greater or less than the number of variables, it will always do it in 1 attempt, but if the clauses are greater or less than the variable, and the variables are less than 15, it will take exponentially infinite
